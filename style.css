@@ -1,0 +1,115 @@
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    
+}
+
+
+header{
+    background-color: rgb(163, 219, 163);
+    padding: 8px 64px;
+    border-bottom: 1px black solid;
+}
+header nav a{
+    margin-left: 150px;
+    text-decoration: none;
+      color: black;
+      font-size: 30px;
+     justify-content: space-between;
+}
+h1{
+    font-family: 'Edu TAS Beginner', cursive;
+  justify-content: center;
+    color: black;
+    font-size:50px;
+  
+}
+article nav a{
+color: black;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 16px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image{
+    background-image: url("image/2933296.png");
+    background-position: center;
+    text-align: center;
+    height: 470px;
+    width: 490px;
+    justify-items: right;
+    padding: 12px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: blueviolet;
+}
+.presentation{
+    width : 30%;
+    box-shadow: 2px 2px 15px #00000066;
+    padding: 20px;
+  margin-top: 22px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(237, 243, 245);
+    font-size: 20px;
+    font-weight: bold;
+  justify-content: space-between;
+  
+}
+h2{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: blueviolet;
+}
+h3{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: blueviolet;
+}
+h4{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: blueviolet;
+}
+h5{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: blueviolet;
+    
+}
+
+.conteneurimage{
+    width: 100px;
+    border: 1px solid black;;
+    padding: 20px;
+    margin: 20px;
+}
+
+.img{
+    width: 100px;
+}
+
+footer{
+    justify-content: space-between; 
+    background-color: rgb(75, 136, 76);
+
+}
+.icones{
+    width: 100px;
+     padding: 12px;
+    justify-content: space-between;
+   
+}
