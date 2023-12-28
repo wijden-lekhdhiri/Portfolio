@@ -1,99 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Montserrat:wght@300;400;500&display=swap');
 
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    padding: auto;
-    justify-content: center;
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+  --first-color: #d38e0e;
+}
+body{
+ font-family: 'Montserrat', sans-serif;
+  padding: 1rem 200px 0px 200px;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.header{
+    
+}
+.header-title{
+  color: var(--first-color);
+}
+.navbar{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.nav--link{
+margin-left: 1rem;
+}
+.brand{
+  display: flex;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
 }
 
 
-header{
-    background-color: rgb(163, 219, 163);
-    padding: 8px 64px;
-    height: 50px;
-    border: solid black;
+.brand-left{
+
+  
+  width: 60%;
 }
-header nav a{
-    margin-left: 150px;
-    text-decoration: none;
-      color: black;
-      font-size: 30px;
-     justify-content: space-between;
-}
-h1{
-    font-family: 'Edu TAS Beginner', cursive;
-   color: rgb(51, 51, 63);
-    font-size:50px;
-    text-align: center;
-    padding: 20px;
- position: relative;
+.brand-right{
+  
+  width: 40%;
 }
 
-
-p{
-    font-size: 20px;
+.img-container{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 0.8rem solid var(--first-color);   
 }
-h2{
-    font-family: 'Open Sans', sans-serif;b
-    font-size: 30px;
-    color: blueviolet;
+.img-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.8rem solid white; 
+  }
+.brand-left-header{
+  font-size: 2rem;
+}
+.brand-left-description{
+  margin-top: 0.5rem;
+}
+.btn{
+  margin-top: 2rem;
+  width: 25%;
+  background: none;
+  font-size: 1rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0.3em 0.3em var(--first-color),inset 0.3em 0.3em var(--first-color);
+}
+.btn:hover{
+  box-shadow: 0em 0em var(--first-color),inset 0em 0em var(--first-color);
+}
+.partners{
+  display: flex;
+  margin-top: 2rem;
+}
+.partners img{
+  width: 25%;
 }
 .presentation{
-    width : 30%;
-    box-shadow: 2px 2px 15px #0d0d0d66;
-    padding: 30px;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(232, 242, 242);
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: space-between;
-    margin: 40px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.p{
+  font-size: 1.9rem;
+  padding: 1rem 200px 0px 200px;
+}
+.je-suis{
+  font-size: 5rem;
+}
+.skills{
+  margin-top: 1rem;
+  display: flex;
  
+  
 }
+.skills-left{
+  width: 20%;
 
-h3{
-    font-family: 'Open Sans', sans-serif;;
-    font-size: 30px;
-    color: rgb(37, 2, 94);
 }
-h4{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    color: rgb(37, 2, 94);
-}
-h5{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    color: rgb(37, 2, 94);
-    text-align: center;
-    margin: 20px;
-}
-.conteneurimage{
-    width: 100px;
-    border: 1px solid black;;
-    padding: 20px;
-    margin: 20px;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.conteneurimage :hover{
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-}
+.skills-right{
+  width: 80%;
 
-.img{
-    width: 100%;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.cards{
+  margin-top: 1rem;
+ 
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  width: 300px;
+  height: 300px;
+  margin-left: 0.5rem;
+  border-radius: 2.5rem;
+  box-shadow: 0.1rem 0.1rem 1rem black;
+  display: flex;
+  flex-direction: column;
+}
+.replit{
+  color: var(--first-color);
+  padding: 2rem;
+}
+.card img{
+  width: 100%;
+  border-radius: 2.5rem;
+}
+.card h3{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 30px;
   
 }
 
+h2{
+  font-size: 4rem;
+  margin-top: 1rem;
+  
+}
+.competences{
+    
+  margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+.competences-left{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.comp{
+  
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-left: 0.5rem;
+  border-radius: 2.5rem;
+  box-shadow: 0.1rem 0.1rem 1rem #6e6e6e;
+ justify-content: space-between;
+}
+.competences-right{
+  width: 50%;
+  
+ text-align: end;
+}
+.comp img{
+width: 100%;
+border-radius: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20rem
+    background-color: var(--first-color);
+}
 footer{
-    justify-content: space-between; 
-    background-color: rgb(75, 136, 76);
-    border: solid black;
+
+   border: var(--first-color) 2rem solid;
+    margin-top: 20rem;
 }
 .icones{
-    width: 30px;
-     padding: 10px;
+    width: 4rem;
+    padding: 10px;
     justify-content: space-between;
     -webkit-filter: grayscale(0) blur(0px);
     filter: grayscale(0) blur(0px);
@@ -108,61 +240,6 @@ footer{
   -webkit-transform: rotate(360deg); /* rotation de l'image */
   transform: rotate(360deg);
 }
-.logo-container{
-   width: 100%;
-}
-
-.logo{
-    width: 100%;
-}
-.photo-personnelle{
-    border: solid black;
-    margin: 10px;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.photo-personnelle :hover{
-    -webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
-.contact{
-  color: black;
-  font-size: 20px; 
-  padding: 40px;
-  font-style: italic;
-}
-.loisir{
-font-size: 30px;
-font-family: 'Lato', sans-serif;
-}
-
-
-
-
-h1::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-  
-  h1:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
-  h1::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background: hsl(63, 85%, 75%);
-    z-index: -1;
-    transition: transform .3s ease;
-  }
-
 
 
 

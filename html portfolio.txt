@@ -68,23 +68,21 @@
          <div class="card">
            <div>
              <a href="https://projet-js.wijdenlekhdhir1.repl.co/"><img src="images/rouge.jpg" alt=""></a>
-             </div>
+             
              <h3>Pâtisserie TouBon</h3>
-           
+           </div>
          </div>
          <div class="card">
            <div>
              <a href="https://json-fakestore.wijdenlekhdhir1.repl.co/"><img src="images/store.jpg" alt=""></a>
-             </div>
              <h3>Fake Store</h3>
-             
+             </div>
            </div>
          <div class="card">
            <div>
              <a href="https://jardin.wijdenlekhdhir1.repl.co/"><img src="images/jardin.jpg" alt=""></a>
-             </div>
              <h3>Jardin de rêve</h3>
-           
+           </div>
          </div>
         </div>
       </div>
